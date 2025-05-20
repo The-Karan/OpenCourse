@@ -1,6 +1,6 @@
 export const adminConfig = {
-  emails: ["aryans12345678@gmail.com",
-    "gurpreetsehaj1005@gmail.com",
-    "pinak650.be22@chitkara.edu.in"
+  emails: ["karansharma.9904ab@gmail.com",
+    "gautam01082004@gmail.com",
+    "kashishshr08@gmail.com"
   ],
 };
