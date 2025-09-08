@@ -10,3 +10,22 @@
   <img src="https://img.shields.io/github/forks/The-Karan/OpenCourse?style=social" />
 </p>
 
+name: Auto Commit
+on:
+  schedule:
+    - cron: "0 0 * * *"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Commit changes
+        run: |
+          date > update.txt
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add update.txt
+          git commit -m "Daily auto update"
+          git push
+
