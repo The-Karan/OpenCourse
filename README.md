@@ -56,5 +56,6 @@ Our mission: **make quality education accessible for everyone, everywhere.**
 ### 🔹 Clone the Repository
 ```bash
 git clone https://github.com/your-username/opencourse.git
-cd opencourse
+cd opencourse .
+
 
